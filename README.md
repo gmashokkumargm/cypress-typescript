@@ -7,7 +7,7 @@ Node provides the RESTful API. Angular provides the frontend and accesses the AP
 ## Requirements
 
 - [Node and npm](http://nodejs.org)
-- MongoDB: Make sure you have your own local MongoDB running. Set environment variable `MONGO_CONNECTION_STRING` to overwrite the default config
+- MongoDB: Make sure you have your own local MongoDB running. Set environment variable `MONGO_CONNECTION_STRING` to overwrite the default config (or) Install docker container using the command `npm run docker`
 
 ## Installation
 
