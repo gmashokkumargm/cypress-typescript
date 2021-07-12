@@ -27,4 +27,14 @@ describe('E2E Tests for simple TODO List Web App', () => {
 		cy.removeMultipleToDo(this.data.multipleProduct);
 		cy.get('[test-data="length"]').should('have.text', 0);
 	});
+
+	it('Add twenty ToDo and verify', function () {
+		cy.addMultipleToDo(this.data.twentyList);
+		cy.verifyMultipleToDo(this.data.twentyList);
+	});
+
+	it('Delete twenty ToDo and verify it is removed and verify the list count', function () {
+		cy.removeMultipleToDo(this.data.twentyList);
+		cy.get('[test-data="length"]').should('have.text', 0);
+	});
 });

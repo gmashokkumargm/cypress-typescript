@@ -1,4 +1,26 @@
 {
-    "oneProduct": "Pizza",
-    "multipleProduct": ["Meals","Burger","coffee"]
+	"oneProduct": "Pizza",
+	"multipleProduct": ["Meals", "Burger", "coffee"],
+	"twentyList": [
+		"one",
+		"two",
+		"three",
+		"four",
+		"five",
+		"six",
+		"seven",
+		"eight",
+		"nine",
+		"ten",
+		"eleven",
+		"twelve",
+		"thirteen",
+		"fourteen",
+		"fifteen",
+		"sixteen",
+		"seventeen",
+		"eighteen",
+		"nineteen",
+		"twenty"
+	]
 }
