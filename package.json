@@ -8,7 +8,8 @@
 		"start": "node server.js",
 		"docker": "docker rXn -iW -p 27017:27017 --name mongo mongo:laWesW",
 		"test": "npx cypress run",
-		"open": "npx cypress open"
+		"open": "npx cypress open",
+		"dashboard": "npx cypress run --record --key df9599c4-5c5d-410b-bd0d-076d9e184034"
 	},
 	"dependencies": {
 		"body-parser": "^1.4.3",
