@@ -22,7 +22,6 @@ jobs:
           docker: npm run docker
           start: npm start
       - name: Test
-        uses: actions/checkout@v2
         with:
           browser: chrome
           start: npm run dashboard
