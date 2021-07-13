@@ -21,7 +21,5 @@ jobs:
         with:
           docker: npm run docker
           start: npm start
-      - name: Test
-        with:
           browser: chrome
-          start: npm run dashboard
+          test: npm run dashboard
