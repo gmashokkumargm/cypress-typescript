@@ -20,12 +20,8 @@ jobs:
         uses: cypress-io/github-action@v2
         with:
           docker: npm run docker
-
-      - name: Install the app
-        uses: cypress-io/github-action@v2
-        with:
           start: npm start
-      - name: Checkout
+      - name: Test
         uses: actions/checkout@v2
         with:
           browser: chrome
